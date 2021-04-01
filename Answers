@@ -1,0 +1,11 @@
+Question 1: How do you see the files changed within each commit from git log?
+
+Answer: By typing $ git log --stat
+---
+Question 2: How do you see the contents of what changed within each file from the git log?
+
+Answer: By typing $ git log --patch
+----
+Question 3: What does HEAD refer to in the context of git? (Not to be confused with the "HEAD<<<<" one observes within merge conflict)
+
+Answer: The HEAD points out the last commit in the brach like a pointer to any reference. The HEAD can be understood as the "current branch"
